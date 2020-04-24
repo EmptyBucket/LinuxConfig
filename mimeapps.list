@@ -1,0 +1,17 @@
+[Default Applications]
+application/octet-stream=vim.desktop
+application/pdf=qpdfview.desktop
+application/x-gettext-translation=vim.desktop
+application/xml=vim.desktop
+application/x-wine-extension-ini=vim.desktop
+text/plain=vim.desktop
+text/html=org.qutebrowser.qutebrowser.desktop
+x-scheme-handler/http=org.qutebrowser.qutebrowser.desktop
+x-scheme-handler/https=org.qutebrowser.qutebrowser.desktop
+x-scheme-handler/about=org.qutebrowser.qutebrowser.desktop
+x-scheme-handler/unknown=org.qutebrowser.qutebrowser.desktop
+
+[Added Associations]
+image/x-canon-cr2=org.gnome.FileRoller.desktop;
+application/x-7z-compressed=org.gnome.FileRoller.desktop;
+image/gif=qutebrowser.desktop;
