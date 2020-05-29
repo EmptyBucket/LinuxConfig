@@ -15,8 +15,9 @@ settings:
         J: forward
         K: back
         L: tab-next
+        f: hint all current
   colors.webpage.bg:
-    global: '#262626'
+    global: '#BBBBBB'
   content.user_stylesheets:
     global: darculized.css
   hints.uppercase:
