@@ -15,3 +15,4 @@ x-scheme-handler/unknown=org.qutebrowser.qutebrowser.desktop
 image/x-canon-cr2=org.gnome.FileRoller.desktop;
 application/x-7z-compressed=org.gnome.FileRoller.desktop;
 image/gif=qutebrowser.desktop;
+image/jpeg=viewnior.desktop;

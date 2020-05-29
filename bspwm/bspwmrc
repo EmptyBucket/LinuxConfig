@@ -12,3 +12,4 @@ bspc config borderless_monocle   true
 bspc config gapless_monocle      true
 
 bspc config focused_border_color "#00FF00"
+bspc config focus_follows_pointer false
