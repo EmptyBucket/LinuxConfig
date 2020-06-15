@@ -21,7 +21,7 @@ settings:
   content.notifications:
     https://www.reddit.com: false
   content.user_stylesheets:
-    global: darculized.css
+    global: null
   hints.uppercase:
     global: true
   url.default_page:
