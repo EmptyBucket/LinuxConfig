@@ -54,6 +54,10 @@ super + {_,shift + }{h,j,k,l}
 super + {p,b,c}
 	bspc node -f @{parent,brother,first}
 
+# focus the next/previous desktop in the current monitor
+super + bracket{left,right}
+	bspc desktop -f {prev,next}.local
+
 # focus the next node
 super + n
 	bspc node -f next.local
