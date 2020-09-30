@@ -16,10 +16,12 @@ settings:
         K: back
         L: tab-next
         f: hint all current
-  content.notifications:
-    https://www.reddit.com: false
-  content.user_stylesheets:
-    global: null
+        gH: tab-move -
+        gL: tab-move +
+        gl: null
+        gr: null
+        j: scroll-px 0 100
+        k: scroll-px 0 -100
   hints.uppercase:
     global: true
   url.default_page:
@@ -29,3 +31,5 @@ settings:
       DEFAULT: https://google.com/search?q={}
   url.start_pages:
     global: https://google.com
+  zoom.default:
+    global: 110%

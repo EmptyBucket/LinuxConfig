@@ -16,3 +16,7 @@ image/x-canon-cr2=org.gnome.FileRoller.desktop;
 application/x-7z-compressed=org.gnome.FileRoller.desktop;
 image/gif=qutebrowser.desktop;
 image/jpeg=sxiv.desktop;
+image/png=sxiv.desktop;
+video/mp4=org.xfce.Parole.desktop;vlc.desktop;
+video/x-matroska=org.xfce.Parole.desktop;vlc.desktop;
+text/plain=nvim.desktop;
