@@ -22,6 +22,8 @@ settings:
         gr: null
         j: scroll-px 0 100
         k: scroll-px 0 -100
+  colors.webpage.bg:
+    global: '#ddd'
   hints.uppercase:
     global: true
   url.default_page:
