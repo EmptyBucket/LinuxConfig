@@ -18,14 +18,27 @@ settings:
         f: hint all current
         gH: tab-move -
         gL: tab-move +
-        gl: null
-        gr: null
+        gr: spawn --userscript readability
         j: scroll-px 0 100
         k: scroll-px 0 -100
   colors.webpage.bg:
     global: '#ddd'
+  content.geolocation:
+    https://tinder.com: true
+  content.notifications:
+    https://web.telegram.org: true
+  content.user_stylesheets:
+    global: null
+  fonts.default_size:
+    global: 12pt
+  fonts.web.size.minimum:
+    global: 18
+  fonts.web.size.minimum_logical:
+    global: 18
   hints.uppercase:
     global: true
+  statusbar.position:
+    global: top
   url.default_page:
     global: https://google.com
   url.searchengines:
@@ -33,5 +46,3 @@ settings:
       DEFAULT: https://google.com/search?q={}
   url.start_pages:
     global: https://google.com
-  zoom.default:
-    global: 110%

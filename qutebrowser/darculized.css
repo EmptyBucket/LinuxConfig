@@ -1,9 +1,0 @@
-body {
-	background-color: #BAAC98 !important;
-	background: #BAAC98 !important;
-	filter: invert(0.1);
-}
-
-body :not([style*="255,255,255"]), body :not([style*="ff,ff,ff"]) {
-  background-color: #BAAC98;
-}

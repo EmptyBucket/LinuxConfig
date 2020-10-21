@@ -4,11 +4,11 @@
 
 # terminal emulator
 super + Return
-	xfce4-terminal
+	termite
 
 # program launcher
 super + semicolon
-	rofi -modi combi,run -show combi -combi-modi window,drun
+	rofi -show combi
 
 # make sxhkd reload its configuration files:
 super + Escape
