@@ -1,5 +1,5 @@
 [options]
-font = liberation 18px
+font = Liberation Mono 18px
 
 [colors]
 # Base16 Gruvbox dark, soft
@@ -32,7 +32,8 @@ color3  = #fabd2f
 color11 = #fabd2f
 
 # Blue
-color4  = #83a598
+#color4  = #83a598
+color4  = #32302f
 color12 = #83a598
 
 # Purple
