@@ -282,16 +282,16 @@ c.colors.tabs.indicator.stop = base0C
 c.colors.tabs.indicator.error = base08
 
 # Foreground color of unselected odd tabs.
-c.colors.tabs.odd.fg = base05
+c.colors.tabs.odd.fg = base06
 
 # Background color of unselected odd tabs.
-c.colors.tabs.odd.bg = base01
+c.colors.tabs.odd.bg = base00
 
 # Foreground color of unselected even tabs.
-c.colors.tabs.even.fg = c.colors.tabs.odd.fg
+c.colors.tabs.even.fg = base06
 
 # Background color of unselected even tabs.
-c.colors.tabs.even.bg = c.colors.tabs.odd.bg
+c.colors.tabs.even.bg = base01
 
 # Foreground color of selected odd tabs.
 c.colors.tabs.selected.odd.fg = base07
@@ -312,10 +312,10 @@ c.colors.tabs.pinned.odd.fg = c.colors.tabs.odd.fg
 c.colors.tabs.pinned.odd.bg = c.colors.tabs.odd.bg
 
 # Foreground color of pinned unselected even tabs.
-c.colors.tabs.pinned.even.fg = c.colors.tabs.pinned.odd.fg
+c.colors.tabs.pinned.even.fg = c.colors.tabs.even.fg
 
 # Background color of pinned unselected even tabs.
-c.colors.tabs.pinned.even.bg = c.colors.tabs.pinned.odd.bg
+c.colors.tabs.pinned.even.bg = c.colors.tabs.even.bg
 
 # Foreground color of pinned selected odd tabs.
 c.colors.tabs.pinned.selected.odd.fg = c.colors.tabs.selected.odd.fg
@@ -324,10 +324,10 @@ c.colors.tabs.pinned.selected.odd.fg = c.colors.tabs.selected.odd.fg
 c.colors.tabs.pinned.selected.odd.bg = c.colors.tabs.selected.odd.bg
 
 # Foreground color of pinned selected even tabs.
-c.colors.tabs.pinned.selected.even.fg = c.colors.tabs.pinned.selected.odd.fg
+c.colors.tabs.pinned.selected.even.fg = c.colors.tabs.selected.even.fg
 
 # Background color of pinned selected even tabs.
-c.colors.tabs.pinned.selected.even.bg = c.colors.tabs.pinned.selected.odd.bg
+c.colors.tabs.pinned.selected.even.bg = c.colors.tabs.selected.even.bg
 
 # Background color for webpages if unset (or empty to use the theme's
 # color).
