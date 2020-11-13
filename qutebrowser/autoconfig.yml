@@ -18,6 +18,7 @@ settings:
         f: hint all current
         gH: tab-move -
         gL: tab-move +
+        gl: null
         gr: spawn --userscript readability
         j: scroll-px 0 100
         k: scroll-px 0 -100
@@ -28,10 +29,10 @@ settings:
   content.notifications:
     global: false
     https://web.telegram.org: true
-  content.user_stylesheets:
-    global: null
   fonts.default_size:
-    global: 12pt
+    global: 18px
+  fonts.web.size.default:
+    global: 16
   fonts.web.size.minimum:
     global: 18
   fonts.web.size.minimum_logical:
