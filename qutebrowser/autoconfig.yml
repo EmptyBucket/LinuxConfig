@@ -28,15 +28,16 @@ settings:
     https://tinder.com: true
   content.notifications:
     global: false
+    https://tinder.com: true
     https://web.telegram.org: true
   fonts.default_size:
-    global: 18px
+    global: 16px
   fonts.web.size.default:
     global: 16
   fonts.web.size.minimum:
-    global: 18
+    global: 16
   fonts.web.size.minimum_logical:
-    global: 18
+    global: 16
   hints.uppercase:
     global: true
   url.default_page:
