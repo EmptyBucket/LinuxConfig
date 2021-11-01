@@ -1,7 +1,7 @@
 configuration {
 	modi: "combi,run";
 	combi-modi: "window,drun";
-	font: "Fira Code 18";
+	font: "Fira Code 16";
 }
 
 /* ==========================================================================

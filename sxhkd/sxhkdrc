@@ -23,16 +23,12 @@ super + m
 	bspc desktop -l next
 
 # set the window state
-super + {t,shift + t,f}
-	bspc node -t {tiled,pseudo_tiled,floating}
+super + {t,f}
+	bspc node -t {tiled,floating}
 
 # focus the next node
 super + n
 	bspc node -f next.local
-
-# swap the current node and the biggest node
-super + g
-	bspc node -s biggest.local
 
 # focus or swap the node in the given direction
 super + {_,shift + }{h,j,k,l}
