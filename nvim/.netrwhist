@@ -1,0 +1,8 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =6
+let g:netrw_dirhist_6='/home/strix/.config/sxhkd'
+let g:netrw_dirhist_5='/home/strix/.local/share/applications'
+let g:netrw_dirhist_4='/home/strix/.config/qutebrowser'
+let g:netrw_dirhist_3='/home/strix/.config/nvim'
+let g:netrw_dirhist_2='/home/strix/.config/bspwm'
+let g:netrw_dirhist_1='/home/strix/.config/qutebrowser'
