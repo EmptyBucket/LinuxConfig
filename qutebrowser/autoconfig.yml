@@ -23,7 +23,7 @@ settings:
         j: scroll-px 0 100
         k: scroll-px 0 -100
   colors.webpage.bg:
-    global: '#ddd'
+    global: '#32302f'
   content.notifications.enabled:
     global: false
     https://web.telegram.org: true
