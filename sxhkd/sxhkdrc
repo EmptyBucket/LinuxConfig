@@ -28,7 +28,7 @@ super + {t,f}
 
 # focus the next node
 super + n
-	bspc node -f next.local
+	bspc node -f next.local.leaf
 
 # focus or swap the node in the given direction
 super + {_,shift + }{h,j,k,l}
