@@ -34,9 +34,9 @@ settings:
   fonts.web.size.default:
     global: 16
   fonts.web.size.minimum:
-    global: 16
+    global: 12
   fonts.web.size.minimum_logical:
-    global: 16
+    global: 12
   hints.uppercase:
     global: true
   url.default_page:
