@@ -20,10 +20,8 @@ settings:
         gL: tab-move +
         gl: null
         gr: spawn --userscript readability
-        j: scroll-px 0 100
-        k: scroll-px 0 -100
-  colors.webpage.bg:
-    global: '#32302f'
+        j: scroll-px 0 300
+        k: scroll-px 0 -300
   content.notifications.enabled:
     global: false
     https://web.telegram.org: true
@@ -33,10 +31,12 @@ settings:
     global: 16px
   fonts.web.size.default:
     global: 16
+  fonts.web.size.default_fixed:
+    global: 16
   fonts.web.size.minimum:
-    global: 12
+    global: 14
   fonts.web.size.minimum_logical:
-    global: 12
+    global: 14
   hints.uppercase:
     global: true
   url.default_page:
