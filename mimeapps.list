@@ -2,16 +2,15 @@
 application/octet-stream=nvim.desktop
 application/xml=nvim.desktop
 text/plain=nvim.desktop
+
+image/jpeg=vimiv.desktop
+image/png=vimiv.desktop
+
 text/html=org.qutebrowser.qutebrowser.desktop
 x-scheme-handler/http=org.qutebrowser.qutebrowser.desktop
 x-scheme-handler/https=org.qutebrowser.qutebrowser.desktop
 x-scheme-handler/about=org.qutebrowser.qutebrowser.desktop
 x-scheme-handler/unknown=org.qutebrowser.qutebrowser.desktop
 
-[Added Associations]
-image/gif=qutebrowser.desktop;
-image/jpeg=sxiv.desktop;
-image/png=sxiv.desktop;
-video/mp4=org.xfce.Parole.desktop;vlc.desktop;
-video/x-matroska=org.xfce.Parole.desktop;vlc.desktop;
-text/plain=nvim.desktop;
+video/mp4=org.xfce.Parole.desktop
+video/x-matroska=org.xfce.Parole.desktop
