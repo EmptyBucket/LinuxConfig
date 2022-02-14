@@ -27,6 +27,10 @@ settings:
     https://web.telegram.org: true
   content.proxy:
     global: system
+  content.register_protocol_handler:
+    https://mail.yandex.ru?mailto=%25s: true
+  content.tls.certificate_errors:
+    global: ask-block-thirdparty
   fonts.default_size:
     global: 16px
   fonts.web.size.default:
