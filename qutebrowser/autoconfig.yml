@@ -22,12 +22,24 @@ settings:
         gr: spawn --userscript readability
         j: scroll-px 0 300
         k: scroll-px 0 -300
+  content.cookies.accept:
+    global: all
+  content.cookies.store:
+    global: true
+  content.geolocation:
+    https://yandex.com: true
+  content.media.audio_capture:
+    https://app.slack.com: true
+    https://meet.google.com: true
+    https://web.telegram.org: true
   content.notifications.enabled:
     global: false
     https://web.telegram.org: true
   content.proxy:
     global: system
   content.register_protocol_handler:
+    https://calendar.google.com?cid=%25s: true
+    https://mail.yandex.com?mailto=%25s: true
     https://mail.yandex.ru?mailto=%25s: true
   content.tls.certificate_errors:
     global: ask-block-thirdparty
