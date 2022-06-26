@@ -2,7 +2,10 @@
 
 sxhkd &
 
-bspc monitor -d I II III IV
+bspc config bottom_padding 35
+bspc monitor DP-0 -d I II III IV
+bspc monitor HDMI-0 -d V
+bspc desktop -f I
 
 bspc config automatic_scheme      "longest_side"
 bspc config initial_polarity	  "first_child"
