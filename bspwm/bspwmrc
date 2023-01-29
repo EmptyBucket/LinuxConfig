@@ -2,11 +2,13 @@
 
 sxhkd &
 
-bspc config bottom_padding 35
+bspc wm -O DP-0 HDMI-0
 bspc monitor DP-0 -d I II III IV
 bspc monitor HDMI-0 -d V
 bspc desktop -f I
 
+bspc config -m DP-0 bottom_padding 25
+bspc config -m HDMI-0 bottom_padding 0
 bspc config automatic_scheme      "longest_side"
 bspc config initial_polarity	  "first_child"
 bspc config border_width          3
@@ -15,6 +17,11 @@ bspc config split_ratio           0.5
 bspc config borderless_monocle    true
 bspc config gapless_monocle       true
 bspc config focus_follows_pointer false
+
+bspc config pointer_modifier mod4
+bspc config pointer_action3 resize_side
+bspc config pointer_action3 resize_corner
+bspc config pointer_action1 move
 
 bspc config normal_border_color   "#665c54"
 bspc config active_border_color   "#a89984"
