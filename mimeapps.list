@@ -1,0 +1,11 @@
+[Default Applications]
+x-scheme-handler/http=xfce4-web-browser.desktop
+x-scheme-handler/https=xfce4-web-browser.desktop
+x-scheme-handler/postman=Postman.desktop
+
+[Added Associations]
+x-scheme-handler/http=xfce4-web-browser.desktop;
+x-scheme-handler/https=xfce4-web-browser.desktop;
+video/x-matroska=vlc.desktop;
+audio/ac3=vlc.desktop;
+image/png=org.xfce.ristretto.desktop;

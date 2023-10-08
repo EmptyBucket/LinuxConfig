@@ -2,9 +2,10 @@
 
 sxhkd &
 
-bspc wm -O DP-0 HDMI-0
+bspc wm -O DP-0 DP-3 HDMI-0
 bspc monitor DP-0 -d I II III
-bspc monitor HDMI-0 -d IV
+bspc monitor DP-3 -d IV
+bspc monitor HDMI-0 -d V
 bspc desktop -f I
 
 bspc config -m DP-0 bottom_padding 25

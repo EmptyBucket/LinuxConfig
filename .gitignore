@@ -6,11 +6,13 @@
 !fontconfig/
 
 !alacritty/
+!xfce4/
+/xfce4/*
+!xfce4/terminal/
 !bspwm/
+!sxhkd/
 !qutebrowser/
 !rofi/
-!sxhkd/
 !flameshot/
 !nvim/
 !vimiv/
-!btop/

@@ -22,11 +22,14 @@ settings:
         gr: spawn --userscript readability
         j: scroll-px 0 300
         k: scroll-px 0 -300
+  colors.webpage.bg:
+    global: gray
   content.cookies.accept:
     global: all
   content.cookies.store:
     global: true
   content.geolocation:
+    https://gorzdrav.org: false
     https://yandex.com: true
   content.media.audio_capture:
     https://app.slack.com: true
@@ -39,6 +42,7 @@ settings:
     global: system
   content.register_protocol_handler:
     https://calendar.google.com?cid=%25s: true
+    https://mail.google.com?extsrc=mailto&url=%25s: false
     https://mail.yandex.com?mailto=%25s: true
     https://mail.yandex.ru?mailto=%25s: true
   content.tls.certificate_errors:
